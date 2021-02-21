@@ -17,6 +17,7 @@ export class UserserviceService {
   {
     let url="https://gorest.co.in/public-api/users";
     console.log(data);
+    alert("User Register Successfully");
     return this.http.post<any>(url,data);
   }
 

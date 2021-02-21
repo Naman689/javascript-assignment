@@ -250,6 +250,7 @@
     display: inline-block;
     line-height: 50px;
     padding: 0 50px;
+    margin-right: 40px;
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;

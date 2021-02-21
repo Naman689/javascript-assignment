@@ -39,7 +39,7 @@ img{
     font-size: 1rem;
     font-weight: 600;
     font-family: Georgia;
-    margin-left: 730px;
+    margin-left: 690px;
 
 }
 .btn3{
@@ -67,7 +67,7 @@ img{
 }
 .tupple1{
   color: #000;
-  background-color: rgba(126, 252, 0, 0.292);
+  background-color: rgba(108, 12, 33, 0.578);
   font-family: 'zilla slab', serif;
 	font-size: .9rem;
   font-weight: 800;
@@ -76,10 +76,10 @@ img{
 
 .frame {
   position: absolute;
-  top: 65%;
+  top: 57%;
   left: 9%;
   width: 900px;
-  height: 1100px;
+  height: 750px;
   margin-top: -200px;
   border-radius: 2px;
   box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.6);
@@ -100,7 +100,7 @@ img{
 .list {
   position: relative;
   width: 790px;
-  top:550px;
+  top:360px;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;

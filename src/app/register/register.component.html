@@ -8,55 +8,49 @@
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Id</label>
-                                <input class="input--style-4" type="text" name="id" formControlName="id">
+                                <input class="input--style-4" type="text" name="id" formControlName="id" required>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Name  </label>
-                                <input class="input--style-4" type="text" name="name" formControlName="name">
+                                <input class="input--style-4" type="text" name="name" formControlName="name" required>
                             </div>
                         </div>
                     </div>
                     <div class="row row-space">
-                        <!-- <div class="col-2">
+                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Password</label>
                                 <input class="input--style-4" type="password" minlength="8" maxlength="15"
-                                    name="password">
+                                    name="password" required>
                             </div>
-                        </div> -->
-                        <!-- <div class="col-2">
-                             <div class="p-t-10">
+                        </div> 
+                         <div class="col-2">
+                             <div class="input-group">
                                 <label class="label">Gender</label>
-                                <label class="radio-container m-r-45">Male
-                                    <input type="radio" checked="checked" ngModel>
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="radio-container">Female
-                                    <input type="radio" name="gender">
-                                    <span class="checkmark"></span>
-                                </label>
+                                <input class="input--style-4" type="gender" name="gender" formControlName="gender" required>
                             </div>
-                        </div> -->
+                        </div> 
                     </div>
                     <div class="row row-space">
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Email</label>
-                                <input class="input--style-4" type="email" name="email" formControlName="email">
+                                <input class="input--style-4" type="email" name="email" formControlName="email" required>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Status</label>
-                                <input class="input--style-4" type="text" name="status" formControlName="status">
+                                <input class="input--style-4" type="text" name="status" formControlName="status" required>
                             </div>
                         </div>
                     </div>
 
                     <div class="p-t-15">
-                        <button class="btn btn--radius-2 btn--blue"  type="submit">Submit</button>
+                        <button class="btn btn--radius-2 btn--green"  type="submit">Submit</button>
+                        <button class="btn btn--radius-2 btn--blue" routerLink="/login" type="submit">Back</button>
                     </div>
                 </form>
             </div>
