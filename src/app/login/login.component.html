@@ -1,0 +1,24 @@
+<img class="wave" src="./assets/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="./assets/bg.svg">
+		</div>
+		<div class="login-content">
+			<form >
+				<img src="./assets/avatar.svg">
+				<h2 class="title">Welcome</h2>
+           	
+           		<form   fxLayout="column"  >
+              
+                <input type="text" class="input"   placeholder="Username" minlength="4" maxlength="20" required>
+        
+           
+                <input type="password" class="input"   placeholder="Password" minlength="8" maxlength="15" required >
+               
+                <button mat-button type="submit" routerLink="/home" class="btn"  >Login </button>
+              </form>       
+              <p class="re" >Don't have an account? </p>
+              <button mat-button  routerLink="/register" class="btn1">Register </button>
+            </form>
+        </div>
+    </div>

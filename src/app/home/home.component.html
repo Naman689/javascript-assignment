@@ -1,0 +1,40 @@
+<div class="head">
+    <img src="\assets\list.png">
+    LIST
+    <button mat-button type="submit" routerLink="/login" class="btn1">Logout</button>
+</div>
+
+
+<div class="frame">
+    <div class="list">
+        <div class="head2">
+            <div class="title">Candidates</div>
+        </div>
+
+
+        <table class="tbl" border="1" >
+            <tr >
+                <td class="tupple1">
+                    Id
+                </td>
+                <td class="tupple1">
+                   Name
+                </td>
+                
+            </tr>
+            <tr *ngFor="let item of this.data">
+                <td class="tupple" >
+                    Id
+                    {{item.id}}                    
+                </td>
+                <td class="tupple">
+                    {{item.name}}
+                </td>
+            </tr>
+            
+        </table>
+        <div> <button mat-button type="submit" routerLink="/detail" class="btn3">Get More Details </button></div>
+      
+    </div>
+    
+</div>

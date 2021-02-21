@@ -1,0 +1,63 @@
+<div class="head">
+    <img src="\assets\list.png"> DETAILS
+    <button mat-button type="submit" routerLink="/login" class="btn1">Logout</button>
+</div>
+
+
+<div class="frame">
+    <div class="list">
+       
+
+
+        <table border="1">
+            <tr class="tupple1" >
+                <td>
+                    Id
+                </td>
+                <td >
+                   Name
+                </td>
+                <td >
+                    Email
+                </td>
+                <td >
+                    Gender
+                </td>
+                <td >
+                    Status
+                </td>
+                <td >
+                   Created Date
+                </td>
+                <td >
+                    Updated Date
+                <td>
+            </tr>
+
+            <tr class="tupple" *ngFor="let item of this.data">
+                <td >
+                    Id {{item.id}}
+                </td>
+                <td >
+                    {{item.name}}
+                </td>
+                <td >
+                    {{item.email}}
+                </td>
+                <td >
+                    {{item.gender}}
+                </td>
+                <td >
+                    {{item.status}}
+                </td>
+                <td >
+                    {{item.created_at | date}}
+                </td>
+                <td >
+                    {{item.updated_at | date}}
+                <td>
+            </tr>
+        </table>
+        <div><button mat-button type="submit" routerLink="/home" class="btn3">Back </button></div>
+    </div>
+</div>

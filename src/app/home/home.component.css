@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Zilla+Slab:300,400');
+
+body{
+  background-color: lightgrey;
+}
+
+
+.head{
+    position:  absolute;
+    text-align: left;
+    width: 95%;
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-family: Georgia;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    border: 4px;
+    padding-left: 45px;
+    color: rgb(255, 255, 255);
+    background-color:  #643A7A;
+    
+}
+img{
+    position: relative;
+    width: 3%;
+    height: 5%;
+    top: 2%;
+    left:0% ;
+
+}
+
+.btn1{
+    
+    top: 0px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Georgia;
+    margin-left: 760px;
+
+}
+.btn3{
+    
+  
+  height: 35px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(174, 60, 60);
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: Georgia;
+  margin-left: 40px;
+  top: 10px;
+
+}
+.tupple{
+  color: #000;
+  background-color: rgba(126, 252, 0, 0.115);
+  font-family: 'zilla slab', serif;
+	font-size: .9rem;
+  font-weight: 800;
+  border-radius: 1px;
+}
+.tupple1{
+  color: #000;
+  background-color: rgba(126, 252, 0, 0.619);
+  font-family: 'zilla slab', serif;
+	font-size: .9rem;
+  font-weight: 800;
+  border-radius: 1px;
+}
+
+.frame {
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  width: 600px;
+  height: 750px;
+  margin-top: -200px;
+  border-radius: 2px;
+  box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.6);
+  background: #643A7A;
+  color: #497081;
+  font-family: 'zilla slab', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	font-size: .9rem;
+}
+
+.tbl{
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.list {
+  position: relative;
+  width: 300px;
+	top: 360px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  background: #fff;
+  box-shadow: 1rem 1rem .5rem rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  padding-bottom: 20px;
+}
+
+.head2 {
+  padding: 20px 0;
+  margin: 0 30px;
+  border-bottom: 1px solid rgba(100, 58, 122, .5);
+}
+
+.title {
+	font-family: 'fredericka the great', cursive;
+     font-weight: 500;
+  padding-right: 2px;
+  margin-right: 2px;
+	font-size: 2.5rem;
+	color: rgba(100, 58, 122, .8);
+}
+
+.subtitle {
+  font-size: .9rem;
+  text-align: center;
+	letter-spacing: .5px;
+}
+
+.list ul {
+  list-style: none;
+  padding: 4px 0;
+  margin: 0 30px;
+	font-weight: 300;
+  padding-left: 20px;
+}
+
+.list ul li {
+  position: relative;
+  display: block;
+  margin: 24px 0;
+  height: 14px;
+}
+
+.list ul .text {
+  background-color: rgb(165, 63, 97);
+  
+  float: left;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+ul li:nth-of-type(2) {
+	animation: slide-up 1s;
+}
+
+ul li:nth-of-type(3) {
+	animation: slide-up 1.5s;
+}
+
+ul li:nth-of-type(4) {
+	animation: slide-up 2s;
+}
+
+.list ul .button {
+  position: relative;
+  z-index: 2; 
+  box-sizing: border-box;
+  float: right;
+  width: 20px;
+  height: 20px;
+  border: 1px solid fade-out(#643A7A, .5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btn2{
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: white ;
+    margin-bottom: 0%;
+}
+
+.list ul .checkmark {
+  position: absolute;
+  stroke: rgba(100, 58, 122, .5);
+  fill: none;
+  stroke-dashoffset: 340;
+  stroke-dasharray: 360;
+}
+
+.list ul input {
+  display: none;
+}
+
+ul li .wrapper {
+	position: absolute;
+	width: 20px;
+    right: 20px;
+    top: 1px;
+    bottom: 1px;
+    padding-top: 0px;
+}
+
+
+
+.checkmark {
+  display: block;
+  stroke-width: 8;
+	opacity: 0;
+}
